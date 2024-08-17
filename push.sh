@@ -6,3 +6,5 @@ if [[ $output == *"Everything up-to-date"* ]]; then
 else
     echo "推送成功"
 fi
+
+read -p "按 Enter 鍵繼續..."
