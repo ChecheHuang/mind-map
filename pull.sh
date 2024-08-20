@@ -1,3 +1,3 @@
-if ! git pull | grep -q "Already up to date."; then
-  code .
-fi
+git pull
+
+read -p "按 Enter 鍵繼續..."
